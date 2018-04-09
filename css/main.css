@@ -1,0 +1,80 @@
+/* ========================================
+ * CSS written here will override Tachyons
+ * ======================================== */
+
+/* .example {
+  font-family: sans-serif;
+  padding: 50px;
+}
+.example h1 {
+  font-size: 10vw;
+  color: blue;
+  margin: 0;
+}
+.example p {
+  line-height: 1.6;
+}
+
+.h1 {
+  font-family: cursive;
+} */
+
+@font-face {
+  font-family: "frank";
+  src: url(../fonts/graphik-bold.otf);
+}
+
+.frank {
+  font-family: "frank";
+  font-size: 20pt;
+  line-height: 1.2;
+}
+
+@media (min-width: 720px) {
+  .frank {
+    font-size: 27pt;
+  }
+}
+
+@media (min-width: 910px) {
+  .frank {
+    font-size: 40pt;
+  }
+}
+
+.subt {
+  font-family: "frank";
+  font-size: 11pt;
+}
+
+@media (min-width: 720px) {
+  .subt {
+    font-size: 13pt;
+  }
+}
+
+@media (min-width: 910px) {
+  .subt {
+    font-size: 15pt;
+  }
+}
+
+@media (min-width: 1050px) {
+  .subt {
+    font-size: 20pt;
+  }
+}
+
+.background {
+  background-color: #dcdee2;
+}
+
+.color-grad {
+  background: linear-gradient(to right, #ff5689, #40b3f9, #fc9b25, #6ae2ed);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-x {
+  background: linear-gradient(to right, #ff5689, #40b3f9, #fc9b25, #6ae2ed);
+}
