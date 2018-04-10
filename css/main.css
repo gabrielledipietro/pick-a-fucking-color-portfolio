@@ -65,6 +65,10 @@
   }
 }
 
+.typpad {
+  padding-top: 10px;
+}
+
 .background {
   background-color: #dcdee2;
 }
