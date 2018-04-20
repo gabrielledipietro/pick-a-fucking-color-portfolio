@@ -65,6 +65,59 @@
   }
 }
 
+@font-face {
+  font-family: "neg";
+  src: url(../fonts/karloff-neg.otf);
+}
+
+.neg {
+  line-height: 1;
+  font-family: "neg";
+  font-size: 14pt;
+}
+
+@media (min-width: 720px) {
+  .neg {
+    font-size: 17pt;
+  }
+}
+
+@media (min-width: 910px) {
+  .neg {
+    font-size: 19pt;
+  }
+}
+
+@media (min-width: 1050px) {
+  .neg {
+    font-size: 25pt;
+  }
+}
+
+.kar {
+  line-height: 1;
+  font-family: "neg";
+  font-size: 22pt;
+}
+
+@media (min-width: 720px) {
+  .kar {
+    font-size: 30pt;
+  }
+}
+
+@media (min-width: 910px) {
+  .kar {
+    font-size: 40pt;
+  }
+}
+
+@media (min-width: 1050px) {
+  .kar {
+    font-size: 45pt;
+  }
+}
+
 .typpad {
   padding-top: 10px;
 }
