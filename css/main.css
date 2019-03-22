@@ -20,42 +20,30 @@
 } */
 
 @font-face {
-  font-family: "sabon";
-  src: url(../fonts/sabon-roman.otf);
+  font-family: "frank";
+  src: url(../fonts/graphik-bold.otf);
 }
 
-@font-face {
-  font-family: "sabon-ital";
-  src: url(../fonts/sabon-ital.otf);
-}
-
-.sabon {
-  font-family: "sabon";
-
+.frank {
+  font-family: "frank";
+  font-size: 20pt;
   line-height: 1.2;
-  color: #faffd1;
 }
 
-.ital {
-  font-family: "sabon-ital";
-
-  line-height: 1.2;
-  color: #faffd1;
+@media (min-width: 720px) {
+  .frank {
+    font-size: 27pt;
+  }
 }
 
-.statement {
-  font-family: "sabon";
-  line-height: 1.2;
-  display: block;
-  position: fixed;
-  /* padding-left:  */
-  margin-bottom: 100px;
-  /* width: 700px; */
-  z-index: 9999;
+@media (min-width: 910px) {
+  .frank {
+    font-size: 40pt;
+  }
 }
 
 .subt {
-  font-family: "sabon";
+  font-family: "frank";
   font-size: 11pt;
 }
 
@@ -109,20 +97,24 @@
 .kar {
   line-height: 1;
   font-family: "neg";
+  font-size: 22pt;
 }
 
 @media (min-width: 720px) {
   .kar {
+    font-size: 30pt;
   }
 }
 
 @media (min-width: 910px) {
   .kar {
+    font-size: 40pt;
   }
 }
 
 @media (min-width: 1050px) {
   .kar {
+    font-size: 45pt;
   }
 }
 
@@ -131,15 +123,15 @@
 }
 
 .background {
-  background-color: #f23f1f;
+  background-color: #dcdee2;
 }
 
 .color-grad {
-  background: linear-gradient(to right, #fc7b11, #e6f210, #f23f1f, #9ae82e);
+  background: linear-gradient(to right, #ff5689, #40b3f9, #fc9b25, #6ae2ed);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .bg-x {
-  background: linear-gradient(to right, #fc7b11, #e6f210, #f23f1f, #9ae82e);
+  background: linear-gradient(to right, #ff5689, #40b3f9, #fc9b25, #6ae2ed);
 }
